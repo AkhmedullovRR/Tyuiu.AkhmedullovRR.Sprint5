@@ -2,7 +2,7 @@
 
 namespace Tyuiu.AkhmedullovRR.Sprint5.Task2.V19.Lib
 {
-    public class DataService : ISprint5Task2V15
+    public class DataService : ISprint5Task2V19
     {
         public string SaveToFileTextData(int[,] matrix)
         {
