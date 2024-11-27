@@ -16,7 +16,8 @@ namespace Tyuiu.AkhmedullovRR.Sprint5.Task4.V27.Lib
             string strX = File.ReadAllText(path);
             string z = strX.Replace('.', ',');
             double x = (Convert.ToDouble(z));
-            double y = (Math.Pow(x, 3) - 4 * x) / Math.Cos(x);
+            double y = (Math.Pow(x, 3) - 4 * x) / Math.Cos(x); 
+            Math.Pow(y, 4);
             return Math.Round(y);
         }
     }
